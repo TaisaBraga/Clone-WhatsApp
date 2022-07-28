@@ -1,5 +1,6 @@
 .contacts{
     height: 60px;
+    cursor: pointer;
 }
 .PersonPhoto{
     width: 45px;

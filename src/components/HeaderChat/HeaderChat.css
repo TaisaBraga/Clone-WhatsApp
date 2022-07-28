@@ -1,0 +1,23 @@
+.headerChat{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.PersonImage{
+    border-radius: 100%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.Icons{
+    color: gray;
+    cursor: pointer;
+
+}
+.VertIcon{
+    margin-left: 15px;
+    
+}
