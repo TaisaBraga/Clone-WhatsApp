@@ -1,0 +1,39 @@
+.contacts{
+    height: 60px;
+}
+.PersonPhoto{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-top: 10px
+}
+
+.ClosedChat{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    
+}
+
+.contacts:hover{
+    background-color: #DFDFDF;
+   
+}
+.text-chat{
+    flex-direction: column;
+    float: right;
+    margin-right: 140px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.text-chat > span{
+    font-weight: bold;
+}
+
+.divider{
+    border-bottom: 1px solid #ebebeb;
+    width: 320px;
+}

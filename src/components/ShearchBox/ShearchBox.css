@@ -1,0 +1,27 @@
+.searchBox{
+    justify-items: center;
+    background-color: #ebebeb;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    margin-left: 18px;
+ 
+}
+.searchIcon{
+    color: gray;
+    margin-right: 15px;
+        
+}
+
+.filterIcon{
+    color: gray;
+    cursor: pointer;
+    margin-left: 40px;
+    
+}
+
+.filterIcon:hover{
+    border-radius: 100%;
+    background-color: #00a884;
+    color: white;
+}

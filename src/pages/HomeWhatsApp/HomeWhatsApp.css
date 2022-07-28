@@ -1,5 +1,24 @@
 .HomePage{
-    background-color: rgb(231, 122, 19);
-    padding: 10px;
-    width: 350px;
+    width: 350px;   
+    overflow: hidden
 }
+.headerHome{
+    background-color: #DCDCDC;
+    height: 70px;
+    padding: 5px;
+}
+
+.inputBox{
+    background-color: #F5F5F5;
+    padding: 5px;
+    margin-left: -8px;
+    
+}
+
+.Chats{
+    padding: 5px;
+    height: 450px;
+    overflow: scroll;
+}
+
+

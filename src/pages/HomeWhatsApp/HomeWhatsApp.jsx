@@ -1,12 +1,21 @@
 import React from "react";
 import Contacts from "../../components/Contacts";
-import './HomeWhatsApp.css'
+import ShearchBox from "../../components/ShearchBox";
+import HeaderChat from "../../components/HeaderChat";
+import "./HomeWhatsApp.css";
 
-export default function HomeWhatsApp(){
-    return(
-        <div className="HomePage">
-            <h1>HomeWhatsApp</h1>
-            <Contacts />
-        </div>
-    )
+export default function HomeWhatsApp() {
+  return (
+    <div className="HomePage">
+      <div className="headerHome">
+        <HeaderChat />
+      </div>
+      <div className="inputBox">
+        <ShearchBox />
+      </div>
+      <div className="Chats">
+        <Contacts />
+      </div>
+    </div>
+  );
 }
