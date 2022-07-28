@@ -1,10 +1,13 @@
 import React from "react";
-import './WhatsAppMessages.css'
+import MessageHeader from "../../components/MessageHeader";
+import "./WhatsAppMessages.css";
 
-export default function WhatsAppMessages(){
-    return(
-        <div className="WhatsAppMessages">
-            <h1>messages</h1>
-        </div>
-    )
+export default function WhatsAppMessages() {
+  return (
+    <div className="WhatsAppMessages">
+      <div className="header">
+        <MessageHeader />
+      </div>
+    </div>
+  );
 }

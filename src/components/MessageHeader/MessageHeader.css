@@ -1,0 +1,17 @@
+.MessageHeader {
+  background-color: #f0f2f5;
+  border-left: 1px solid darkgray;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.144);
+}
+
+.attachIcon{
+    margin-right: 16px;
+    transform: rotate(40deg);
+}
+

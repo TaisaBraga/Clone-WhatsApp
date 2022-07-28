@@ -8,7 +8,7 @@ export default function HeaderChat(){
         <div className="headerChat">
             <img src={HeaderPhoto} alt="" className='PersonImage'/>
             <div className='Icons'>
-            <ChatIcon />
+            <ChatIcon style={{width:"16px"}} />
             <MoreVertIcon className='VertIcon'/>
             </div>
         </div>

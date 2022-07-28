@@ -1,10 +1,10 @@
 .HomePage{
     width: 400px;   
-    overflow: hidden
+    overflow: hidden;
 }
 .headerHome{
-    background-color: #DCDCDC;
-    height: 70px;
+    background-color: #f0f2f5;
+    height: 60px;
     padding: 5px;
 }
 
@@ -12,6 +12,7 @@
     background-color: #F5F5F5;
     padding: 5px;
     margin-left: -8px;
+    border-bottom: 1px solid lightgray ;
     
 }
 
