@@ -1,38 +1,38 @@
-.contacts {
-  height: 60px;
+.AllContacts {
+  display: flex;
+  height: 65px;
   cursor: pointer;
-  padding-left: 10px;
+  margin-top: 10px;
 }
 .PersonPhoto {
   width: 45px;
   height: 45px;
   border-radius: 100%;
-  margin-top: 10px;
+  margin: 10px;
 }
-
-.ClosedChat {
-  display: flex;
-  flex-direction: row;
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contacts:hover {
-  background-color: #dfdfdf;
-}
-.text-chat {
-  flex-direction: column;
-  float: right;
-  margin-right: 140px;
-  margin-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+.ContactName {
   font-size: 14px;
-}
-.text-chat > span {
   font-weight: bold;
 }
 
+.ContactMessage {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 10px 0 5px 0;
+}
+.CloseMessages {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  
+  padding: 5px;
+}
+
+.AllContacts:hover {
+  background-color: #dfdfdf;
+}
 .divider {
   border-bottom: 1px solid #ebebeb;
-  width: 320px;
+  margin-left: 20px;
+  width: 300px;
 }
